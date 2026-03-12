@@ -12,6 +12,7 @@ build/
 .ruff_cache/
 llama.cpp/
 finetuned-qwen/
+models/
 
 # Virtual Environment
 ai_env/
