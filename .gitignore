@@ -11,6 +11,7 @@ build/
 .mypy_cache/
 .ruff_cache/
 llama.cpp/
+finetuned-qwen/
 
 # Virtual Environment
 ai_env/
