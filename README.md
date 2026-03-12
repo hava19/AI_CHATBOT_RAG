@@ -19,3 +19,7 @@ cp .env.example .env
 # Edit .env with your API keys
 make install
 make dev
+
+# Running the app using FAST API and uvicorn
+uvicorn app.main:app --reload
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
